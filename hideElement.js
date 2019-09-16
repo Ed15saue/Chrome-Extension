@@ -1,5 +1,5 @@
 //gets the element that holds the url to the site
-var site = document.getElementsByClassName("iUh30 bc").textContent;
+var site = document.getElementsByClassName("iUh30 bc").innerHTML;
 var entry;
 //gets all elements with the url on the page and then hides them
 var block1 = site[0];
